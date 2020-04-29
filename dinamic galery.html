@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <title>Document</title>
+    <style>
+       #images img{
+           display: none;
+       }
+       #images img:target{
+           /* border: 5px solid red;*/
+           display: block;
+        }
+    </style>      
+</head>
+<body>
+    <div id="images">
+        <img id="slide-1" src="http://lorempixel.com/600/400/" >
+        <img id="slide-2" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/India_Gate_600x400.jpg">
+        <img id="slide-3" src="https://static1.visitestonia.com/images/2927407/600_400_false_false_cab9a1d96d138231e2ce4ef03dc55b9e.jpg">
+    </div>
+    <nav>
+        <a href="#slide-1"><img width="100" src="http://lorempixel.com/600/400/"></a>
+        <a href="#slide-2"><img width="100" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/India_Gate_600x400.jpg"></a>
+        <a href="#slide-3"><img width="100" src="https://static1.visitestonia.com/images/2927407/600_400_false_false_cab9a1d96d138231e2ce4ef03dc55b9e.jpg"></a>
+    </nav>
+    
+</body>
+</html>
